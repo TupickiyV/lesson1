@@ -51,8 +51,8 @@ class MyArray
 
   def switch
     maximum = @array.index(@array.max)
-    mminimum = @array.index(@array.min)
-    @array[maximum], @array[mminimum] = @array[mminimum], @array[maximum]
+    minimum = @array.index(@array.min)
+    @array[maximum], @array[minimum] = @array[minimum], @array[maximum]
     @array
   end
 
