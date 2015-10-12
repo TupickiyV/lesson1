@@ -4,7 +4,6 @@ class Lesson1
     sum = 0
     val.to_s.scan(/[0-9]/) { |i| sum += i.to_i }
     sum
-    # TODO
   end
 
   def age(birthday)
@@ -18,7 +17,6 @@ class Lesson1
           или #{hours} часов или #{minutes} минут или #{seconds} секунд"
     else 'Invalid Date Format'
     end
-    # TODO
   end
 
   def name
@@ -26,6 +24,5 @@ class Lesson1
     surname = gets.chomp
     patronymits = gets.chomp
     "Hello #{name} #{surname} #{patronymits}!"
-    # TODO
   end
 end
